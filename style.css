@@ -21,6 +21,16 @@ body{
           border: 1px solid black;
           background: rgba(216, 191, 216, 0.782);
           border-radius: 30% 60% 55% 33% / 40% 47% 50% 15%;
+          animation: spinOne 6s infinite linear;
+}
+
+@keyframes spinOne{
+          from{
+                    transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(360deg);
+          }
 }
 
 .circle span:nth-child(2){
@@ -31,6 +41,16 @@ body{
           border: 1px solid black;
           background: rgba(0, 255, 0, 0.755);
           border-radius: 40% 70% 25% 43% / 50% 37% 40% 35%;
+          animation: spinTwo 8s infinite linear;
+}
+
+@keyframes spinTwo{
+          from{
+                    transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(-360deg);
+          }
 }
 
 .circle span:nth-child(3){
@@ -41,6 +61,16 @@ body{
           border: 1px solid black;
           background: rgba(255, 255, 0, 0.68);
           border-radius: 50% 20% 35% 53% / 30% 37% 40% 35%;
+          animation: spinThree 8s infinite linear;
+}
+
+@keyframes spinThree{
+          from{
+                    transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(360deg);
+          }
 }
 
 #container{
